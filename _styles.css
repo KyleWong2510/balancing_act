@@ -1,12 +1,96 @@
 img {
-    width: 100px;
+    width: 50px;
 }
 
-th{
+nav {
+    float: left;
+    position: absolute;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 100%;
+} 
+
+.nav-icons {
+    position: absolute;
+    top: 50%;
+}
+
+.nav-icon {
+    margin: 10px 0px;
+    width: 40px;
+}
+
+main {
+    margin-left: 120px;
+    width: auto;
+    background-color: #f5f5f5;
+}
+
+.welcome-bar {
+    width: 375px;
+}
+
+.data {
+    display: inline-block;
+}
+.data-card {
+    display: inline-block;
+}
+
+.accounts {
+    width: 375px;
+}
+
+.account-bar {
+    width: 375px;
+    height: 75px;
+}
+
+.account-bar-txt {
+    display: inline-block;
+    text-align: left;
+}
+
+.button {
+    float: right;
+}
+
+.account-card {
+    width: 375px;
+    height: 75px;
+}
+
+.account {
+    display: inline-block;
+    align-items: left;
+}
+
+.name {
+    align-items: 40%;
+}
+
+.type {
+    align-items: 70%;
+}
+.column-1 {
+    float: left;
+    width: 40%;
+}
+.column-2 {
+    float: right;
+    width: 40%
+}
+
+li {
+    list-style: none;
+}
+
+th {
     text-align: left;
 }
 
 td {
     text-align: left;
 }
-
