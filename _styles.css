@@ -1,11 +1,24 @@
 img {
     width: 50px;
 }
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    color:  #363636;
+    font-family: biryani;
+    font-size: 14px;
+}
+}
+
+header {
+    margin: 0px 30px;
+}
 
 nav {
     float: left;
     position: absolute;
-    padding: 10px;
+    padding: 0px;
     top: 0;
     left: 0;
     width: 80px;
@@ -14,7 +27,7 @@ nav {
 
 .nav-icons {
     position: absolute;
-    top: 50%;
+    top: 40%;
 }
 
 .nav-icon {
@@ -22,68 +35,108 @@ nav {
     width: 40px;
 }
 
+.shadow {
+    box-shadow: 2px 2px rgba(0,0,0,0.05);
+    border-radius: 5px;
+}
+
 main {
     margin-left: 120px;
-    width: auto;
+    height: 120%;
     background-color: #f5f5f5;
+    padding: 20px;
 }
 
 .welcome-bar {
-    width: 375px;
+    background-image: linear-gradient(to right, #8ED1DC,#E3F4F6);
+    font-size: 25px;
+    padding: 20px;
+    margin: 0px 0px 20px;
 }
 
 .data {
     display: inline-block;
+    width: 100%;
 }
 .data-card {
-    display: inline-block;
+    width: 30%;
+    float: left;
+    background-color: white;
+    height: 80px;
 }
 
-.accounts {
-    width: 375px;
+.card-2 {
+    margin-left: 5%;
 }
 
-.account-bar {
-    height: 75px;
+.data-type {
+    margin: 15px 0px 0px 15px;
 }
 
-.account-bar-txt {
+.amount {
+    margin: 0px 0px 15px 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.bar-txt {
     display: inline-block;
     text-align: left;
 }
 
-.button {
+.bar-button {
     float: right;
+    background-color: #1CA3BA;
+    border-radius: 20px;
+    border-style: solid;
+    color: white;
+    height: 40px;
+    margin-top: 17px;
+    width: 138px;
 }
 
 .account-card {
-    width: 375px;
-    height: 75px;
+    margin: 0px 0px 20px;
+    background-color: white;
 }
 
 .account {
     display: inline-block;
-    align-items: left;
+    padding: 15px;
 }
 
 .name {
-    align-items: 40%;
+    margin-left: 40px;
+    position: absolute;
+    font-weight: bold;
 }
 
 .type {
-    align-items: 70%;
+    margin-left: 250px;
+    position: absolute;
+    font-weight: bold;
 }
 .column-1 {
     float: left;
-    width: 40%;
+    width: 42%;
+    margin: 0px 30px;
 }
+
 .column-2 {
     float: right;
-    width: 40%
+    width: 42%;
+    background-color: white;
+    padding: 0px 15px 25px;
+    margin: 0px 30px;
 }
 
 li {
     list-style: none;
+}
+
+table {
+    width: 100%;
+    font-size: 14px;
 }
 
 th {
@@ -92,4 +145,13 @@ th {
 
 td {
     text-align: left;
+    padding: 10px 0px;
+}
+
+.info {
+    font-weight: bold;
+}
+
+.underline{
+    border-bottom: 1px #CCCCCC;
 }
