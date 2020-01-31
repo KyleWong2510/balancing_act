@@ -37,7 +37,25 @@ nav {
 .nav-icon {
     margin: 10px 0px;
     width: 40px;
+    /* border-left: 4px solid transparent; */
+    padding-left: 8px;
 }
+
+.icon1 {
+    border-left: 4px solid #1CA3BA;
+}
+
+/* .icon2{
+    border-left: 4px solid #1CA3BA;
+}
+
+.icon3{
+    border-left: 4px solid #1CA3BA;
+}
+.nav-icon:hover{
+    border-left: 4px solid #1CA3BA;
+    
+ } */
 
 .shadow {
     box-shadow: 2px 2px rgba(0,0,0,0.05);
