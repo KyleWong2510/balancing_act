@@ -7,7 +7,7 @@
     <body>
         <nav>
             <ul>
-                <li><a href=""><img src="_assets/elephant.svg" alt="Logo"></a></li>
+                <li><a href=""><img class="elephant" src="_assets/elephant.svg" alt="Logo"></a></li>
                 <div class="nav-icons">
                     <li><a href=""><img class="nav-icon" src="_assets/dashboard.svg" alt="Dashboard"></a></li class="nav-icon">
                     <li><a href=""><img class="nav-icon" src="_assets/transactions.svg" alt="Transactions"></a></li >
@@ -20,7 +20,10 @@
                 <h1>Balancing Act</h1>
             </header>
             <section class="column-1">
-                <section class="welcome-bar shadow">Welcome, Oscar</section>
+                <section class="welcome-bar shadow">Welcome, Oscar
+                    <button class="close"><img class="close-img" src="_assets/close.svg">
+                    </button>
+                </section>
                 <section class="data">
                     <section class="data-card shadow">
                         <p class="data-type">Income</p>
@@ -41,22 +44,22 @@
                         <button class="bar-button">MANAGE ACCOUNTS</button>
                     </section>
                     <section class="account-card shadow">
-                        <img class="account" src="_assets/checking.svg" alt="Checking">
+                        <img class="account account-img" src="_assets/checking.svg" alt="Checking">
                         <p class="account name">Wells Fargo</p>
                         <p class="account type">Checking</p>
                     </section>
                     <section class="account-card shadow">
-                        <img class="account" src="_assets/savings.svg" alt="Savings">
+                        <img class="account account-img" src="_assets/savings.svg" alt="Savings">
                         <p class="account name">Wells Fargo</p>
                         <p class="account type">Savings</p>
                     </section>
                     <section class="account-card shadow">
-                        <img class="account" src="_assets/credit-card.svg" alt="Credit Card">
+                        <img class="account account-img" src="_assets/credit-card.svg" alt="Credit Card">
                         <p class="account name">Amazon Credit</p>
                         <p class="account type">Credit Card</p>
                     </section>
                     <section class="account-card shadow">
-                        <img class="account" src="_assets/credit-card.svg" alt="Credit Card">
+                        <img class="account account-img" src="_assets/credit-card.svg" alt="Credit Card">
                         <p class="account name">Southwest Credit</p>
                         <p class="account type">Credit Card</p>
                     </section>
@@ -132,4 +135,5 @@
             </section>
         </main>
     </body>
+    <script src="_main.js"></script>
 </html>
