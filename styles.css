@@ -153,13 +153,13 @@ main {
     position: absolute;
     font-weight: bold;
 }
-.column-1 {
+.dashboard {
     float: left;
     width: 42%;
     margin: 0px 30px;
 }
 
-.column-2 {
+.transaction-preview {
     float: right;
     width: 42%;
     background-color: white;
