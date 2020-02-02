@@ -34,19 +34,67 @@ function addProfileBorder() {
 }
 
 //nav off dashboard page//
-var dashboardPage = document.querySelector('.dashboardPage')
+var dashboardPage = document.querySelector('.dashboard-page')
 
 transactions.addEventListener('click', hideDashboard)
 
 function hideDashboard() {
-    dashboardPage.hidden = true;
+    dashboardPage.classList.add('hidden');
+    transactionsPage.classList.remove('hidden');
+    profilePage.classList.add('hidden');
 }
 
-//nav back to dashboard page//
-var dashboardPage = document.querySelector('.dashboardPage')
+//nav on dashboard page//
+var dashboardPage = document.querySelector('.dashboard-page')
 
 dashboard.addEventListener('click', appearDashboard)
 
 function appearDashboard() {
-    dashboardPage.hidden = false;
+    dashboardPage.classList.remove('hidden');
+    transactionsPage.classList.add('hidden');
+    profilePage.classList.add('hidden');
 }
+
+//nav off transactions page//
+var transactionsPage = document.querySelector('.transactions-page')
+
+dashboard.addEventListener('click', hideTransactions)
+
+function hideTransactions() {
+    transactionsPage.classList.add('hidden');
+    dashboardPage.classList.remove('hidden');
+    profilePage.classList.add('hidden');
+}
+
+//nav to transactions page//
+var transactionsPage = document.querySelector('.transactions-page')
+
+transactions.addEventListener('click', appearTransactions)
+
+function appearTransactions() {
+    transactionsPage.classList.remove('hidden');
+    dashboardPage.classList.add('hidden');
+    profilePage.classList.add('hidden');
+}
+
+// //nav off profile page//
+// var profilePage = document.querySelector('.profile-page')
+
+// dashboard.addEventListener('click', hideProfile)
+
+// function hideProfile() {
+//     transactionsPage.classList.add('hidden');
+//     dashboardPage.classList.remove('hidden');
+//     profilePage.classList.add('hidden');
+// }
+
+// //nav to profile page//
+// var profilePage = document.querySelector('.profile-page')
+
+// profile.addEventListener('click', appearProfile)
+
+// function appearTransactions() {
+//     transactionsPage.classList.add('hidden');
+//     dashboardPage.classList.add('hidden');
+//     profilePage.classList.remove('hidden');
+// }
