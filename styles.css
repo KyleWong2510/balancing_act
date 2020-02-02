@@ -1,7 +1,3 @@
-/* img {
-    width: 50px;
-} */
-
 body {
     height: 100%;
     width: 100%;
@@ -49,7 +45,7 @@ nav {
 }
 
 .shadow {
-    box-shadow: 2px 2px rgba(0,0,0,0.05);
+    box-shadow: 3px 3px rgba(0,0,0,0.05);
     border-radius: 5px;
 }
 
@@ -123,7 +119,7 @@ main {
     border-radius: 20px;
     border-style: solid;
     color: white;
-    height: 40px;
+    height: 30px;
     margin-top: 17px;
     width: 138px;
 }
@@ -153,18 +149,95 @@ main {
     position: absolute;
     font-weight: bold;
 }
-.dashboard {
+.column-1 {
     float: left;
     width: 42%;
     margin: 0px 30px;
 }
 
-.transaction-preview {
+.column-2 {
     float: right;
     width: 42%;
     background-color: white;
     padding: 0px 15px 25px;
     margin: 0px 30px;
+}
+
+.transactions-page {
+    padding: 0px 15px 25px;
+    margin: 0px;
+}
+
+.trans-page-bar {
+    float: left;
+    width: 55%;
+    margin: 0px 15px;
+}
+
+.trans-header {
+    display: inline-block;
+    margin: 12px 0px;
+    font-size: 21px;
+}
+
+.trans-column-1 {
+    float: left;
+    width: 52%;
+    padding: 15px 15px 25px;
+    margin: 0px 15px;
+    background-color: white;
+}
+
+.trans-button-1 {
+    float: right;
+    background-color: #1CA3BA;
+    border-radius: 20px;
+    border-style: solid;
+    color: white;
+    height: 30px;
+    margin-top: 25px;
+    width: 95px;
+}
+
+.trans-button-2{
+    float: right;
+    background-color: white;
+    border-radius: 20px;
+    border-color: #1CA3BA;
+    border-style: solid;
+    color: #1CA3BA;
+    height: 30px;
+    margin-top: 25px;
+    width: 95px;
+}
+
+.trans-column-2 {
+    float: right;
+    width: 40%;
+}
+
+.trans-form {
+    background-color: white;
+    padding: 15px 31px 70px;
+    margin: 0px 15px;
+}
+
+.form-txt {
+    margin-bottom: 0px;
+}
+
+.input-field {
+    width: 100%;
+    border-radius: 0px;
+    box-shadow: 2px 2px rgba(0,0,0,0.05)
+}
+
+select {
+    width: 100%;
+}
+
+.hidden {
+    display: none;
 }
 
 li {
@@ -174,6 +247,19 @@ li {
 table {
     width: 100%;
     font-size: 14px;
+    background-color: white;
+}
+
+.expense-button {
+    float: left;
+    background-color: #1CA3BA;
+    border-radius: 20px;
+    border-style: solid;
+    color: white;
+    height: 30px;
+    margin-top: 0px;
+    width: 120px;
+    }
 }
 
 th {
