@@ -16,11 +16,11 @@
             </ul>
         </nav>
         <main>
-            <section class="dashboardPage">
+            <section class="dashboard-page">
                 <header>
                     <h1>Balancing Act</h1>
                 </header>
-                <section class="dashboard">
+                <section class="column-1">
                     <section class="welcome-bar shadow">Welcome, Oscar
                         <button class="close"><img class="close-img" src="assets/close.svg">
                         </button>
@@ -66,7 +66,7 @@
                         </section>
                     </section>
                 </section>
-                <section class="transaction-preview shadow">
+                <section class="column-2 shadow">
                     <section class=transaction-bar>
                         <h2 class="bar-txt">Recent Transactions</h2>
                         <button class="bar-button">NEW TRANSACTIONS</button>
@@ -131,8 +131,161 @@
                             <td class="info">RTD</td>
                             <td class="info">-</td>
                             <td class="info">$6.00</td>
-                        </tr">
+                        </tr>
                     </table>
+                </section>
+            </section>
+            <section class="transactions-page hidden">
+                <section class="trans-page-bar">
+                    <header class="trans-header"><h1 class="trans-header">Transactions</h1></header>
+                    <button class="trans-button-2 shadow">OUTFLOW</button>
+                    <button class="trans-button-2 shadow">INFLOW</button>
+                    <button class="trans-button-1">ALL</button>
+                </section>
+                    <section class="trans-column-1 shadow"> 
+                    <table class="underline" rules=rows>
+                        <tr>
+                            <th class="info">Date</th>
+                            <th class="info">Account</th>
+                            <th class="info">Payee</th>
+                            <th class="info">Inflow</th>
+                            <th class="info">Outflow</th>
+                        </tr>
+                        <tr>
+                            <td>Oct 25, 2019</td>
+                            <th class="info">Credit Card</th>
+                            <td class="info">Target</td>
+                            <td class="info">-</td>
+                            <td class="info">$82.35</td>
+                        </tr>
+                        <tr>
+                            <td>Oct 24, 2019</td>
+                            <th class="info">Credit Card</th>
+                            <td class="info">Express</td>
+                            <td class="info">-</td>
+                            <td class="info">$212.24</td>
+                        </tr>
+                        <tr>
+                            <td>Oct 22, 2019</td>
+                            <th class="info">Checking</th>
+                            <td class="info">Paycheck</td>
+                            <td class="info">$1,319.12</tdclass="info">
+                            <td class="info">-</td>
+                        </tr>
+                        <tr>
+                            <td>Oct 21, 2019</td>
+                            <th class="info">Credit Card</th>
+                            <td class="info">Trader Joe's</td>
+                            <td class="info">-</td>
+                            <td class="info">$54.92</td>
+                        </tr>
+                        <tr>
+                            <td>Oct 20, 2019</td>
+                            <th class="info">Credit Card</th>
+                            <td class="info">Shell</td>
+                            <td class="info">-</td>
+                            <td class="info">$46.23</td>
+                        </tr>
+                        <tr>
+                            <td>Oct 19, 2019</td>
+                            <th class="info">Savings</th>
+                            <td class="info">Rent</td>
+                            <td class="info">$800.00</td>
+                            <td class="info">-</td>
+                        </tr>
+                        <tr>
+                            <td>Oct 19, 2019</td>
+                            <th class="info">Checking</th>
+                            <td class="info">Hapa Sushi</td>
+                            <td class="info">-</td>
+                            <td class="info">$13.97</td>
+                        </tr>
+                        <tr>
+                            <td>Oct 18, 2019</td>
+                            <th class="info">Credit Card</th>
+                            <td class="info">Pig Train</td>
+                            <td class="info">-</td>
+                            <td class="info">$4.83</td>
+                        </tr>
+                        <tr>
+                            <td>Oct 18, 2019</td>
+                            <th class="info">Checking</th>
+                            <td class="info">RTD</td>
+                            <td class="info">-</td>
+                            <td class="info">$6.00</td>
+                        </tr>
+                        <tr>
+                            <td>Oct 24, 2019</td>
+                            <th class="info">Credit Card</th>
+                            <td class="info">Express</td>
+                            <td class="info">-</td>
+                            <td class="info">$212.24</td>
+                        </tr>
+                        <tr>
+                            <td>Oct 24, 2019</td>
+                            <th class="info">Credit Card</th>
+                            <td class="info">Express</td>
+                            <td class="info">-</td>
+                            <td class="info">$212.24</td>
+                        </tr>
+                        <tr>
+                            <td>Oct 24, 2019</td>
+                            <th class="info">Credit Card</th>
+                            <td class="info">Express</td>
+                            <td class="info">-</td>
+                            <td class="info">$212.24</td>
+                        </tr>
+                        <tr>
+                            <td>Oct 24, 2019</td>
+                            <th class="info">Credit Card</th>
+                            <td class="info">Express</td>
+                            <td class="info">-</td>
+                            <td class="info">$212.24</td>
+                        </tr>
+                        <tr>
+                            <td>Oct 24, 2019</td>
+                            <th class="info">Credit Card</th>
+                            <td class="info">Express</td>
+                            <td class="info">-</td>
+                            <td class="info">$212.24</td>
+                        </tr>
+                    </table>
+                </section>
+                <section class="trans-column-2">
+                    <section class="trans-form shadow">
+                        <form>
+                            <h2>New Transaction</h2>
+                            <p class="form-txt">Type of Transaction:</p>
+                            <select class="shadow">
+                                <option value=none>-Select One-</option>
+                                <option>Expense</option>
+                                <option>Withdrawl</option>
+                                <option>Deposit</option>
+                            </select>
+                            <p class="form-txt">Category:</p>
+                            <select class="shadow">
+                                <option value=none>-Select One-</option>
+                                <option>Bills, bills, bills</option>
+                                <option>Noms</option>
+                                <option>Automobile stuffs</option>
+                                <option>I have no clue where my $$ went</option>
+                            </select>
+                            <p class="form-txt">Account From:</p>
+                            <select class="shadow">
+                                <option value=none>-Select One-</option> 
+                                <option>Credit</option>
+                                <option>Checking</option>
+                                <option>Savings</option>
+                            </select>
+                            <p class="form-txt">Payee:</p>
+                            <input class="input-field shadow" type="text" size="20">
+                            <p class="form-txt">Outflow:</p>
+                            <input class="input-field shadow" type="text" size="20">
+                            <p class="form-txt">Category:</pclass="form-txt">
+                            <input class="input-field shadow" type="text" size="20">  
+                        </form>
+                        <button class="expense-button shadow">Log Expense</button>
+                    </section>
                 </section>
             </section>
         </main>
