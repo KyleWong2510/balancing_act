@@ -40,6 +40,10 @@ nav {
     outline: none;
 }
 
+.nav-icon:hover {
+    border-left: 4px solid #1CA3BA;
+}
+
 .blue-border{
     border-left: 4px solid #1CA3BA;
 }
@@ -83,6 +87,10 @@ main {
     bottom: -1.25px;
 }
 
+.close-img:hover {
+    box-shadow: 1px 1px 1px 1px #1CA3BA;
+}
+
 .data {
     display: inline-block;
     width: 100%;
@@ -122,6 +130,12 @@ main {
     height: 30px;
     margin-top: 17px;
     width: 138px;
+}
+
+.bar-button:hover {
+    background-color: white;
+    outline-color: #1CA3BA;
+    color: #1CA3BA;
 }
 
 .account-card {
@@ -211,6 +225,12 @@ main {
     width: 95px;
 }
 
+.trans-button-2:hover {
+    background-color: #1CA3BA;
+    outline-color: white;
+    color: white;
+}
+
 .trans-column-2 {
     float: right;
     width: 40%;
@@ -260,6 +280,12 @@ table {
     margin-top: 0px;
     width: 120px;
     }
+
+.expense-button:hover {
+    background-color: white;
+    outline-color: #1CA3BA;
+    color: #1CA3BA;
+}
 
 th {
     text-align: left;
